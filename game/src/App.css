@@ -3,25 +3,3 @@
   padding: 0;
   font-family: sans-serif;
 }
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.box {
-  text-align: center;
-  width: 100%;
-}
-.btn {
-  width: 100%;
-}
-#q {
-  text-align: left;
-}
-#ans {
-  background-color: yellow;
-  height: 30px;
-}
