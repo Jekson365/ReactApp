@@ -32,3 +32,6 @@ body {
   align-items: flex-start;
   padding: 10px;
 }
+.change {
+  background-color: red;
+}
