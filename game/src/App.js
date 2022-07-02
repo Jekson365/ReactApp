@@ -1,16 +1,13 @@
 import "./App.css";
-import { Item } from "./components/Item";
-import { Basket } from "./components/Basket";
-import { createContext } from "react";
+import { Routing } from "./components/Routing";
+import { Main } from "./Main";
 
-export const userContenxt = createContext();
 function App() {
   return (
     <>
-      <div className="container">
-        <userContenxt.Provider>
-          <Item />
-        </userContenxt.Provider>
+
+      <div>
+        <Routing/>
       </div>
     </>
   );

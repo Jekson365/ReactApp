@@ -1,37 +1,53 @@
+@import url("//cdn.web-fonts.ge/fonts/bpg-boxo/css/bpg-boxo.min.css");
+
 * {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  text-decoration: none;
+  list-style: none;
+  transition: 0.3s;
 }
-body {
-  position: relative;
-}
-.container {
+ a {
+  text-decoration: none;
+ }
+.routes {
+  max-width: 960px;
+  margin: 20px auto;
   display: grid;
-  grid-gap: 20px;
-  align-self: center;
   grid-template-columns: repeat(3,auto);
+  grid-gap: 10px;
+
 }
-.card {
-  max-width: 360px;
-  overflow: hidden;
+.route-box {
+  border-radius: 10px;
+  padding: 15px;
+  min-height: 240px;
+  background-color: #DAEAF1;
 }
-.card-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-@media screen and (max-width:800px) {
-  .container {
-    grid-template-columns: repeat(auto-fill,100%);
-  }
-}
-.card-content {
+.route-box {
+  font-family: "BPG Boxo", sans-serif;
+  font-weight: bold;
+  color:#4B5D67;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 10px;
+  justify-content: space-between;
 }
-.change {
-  background-color: red;
+nav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: #92c0d3;
+}
+nav a {
+  letter-spacing: 1px;
+  font-weight: 600 ;
+  font-family: "BPG Boxo", sans-serif;
+  cursor: pointer;
+  color: white;
+  margin: 10px;
+}
+nav a:hover {
+  text-decoration: none;
+  color: aquamarine;
 }
