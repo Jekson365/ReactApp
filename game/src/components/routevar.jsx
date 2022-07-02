@@ -5,7 +5,6 @@ import {Racha} from './elements/Racha'
 import {Samegrelo} from './elements/Samegrelo'
 import { Main } from "../Main";
 import { Guria } from "./elements/Guria";
-import imeretiMap from './maps/imereti.png'
  
 export const states = [
     {
