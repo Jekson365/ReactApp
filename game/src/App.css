@@ -94,3 +94,21 @@ nav a:hover {
   color: #A85CF9;
   opacity: 0.5;
 }
+#map-image {
+  width: 70%;
+  height: 70%;
+  border-radius: 10px;
+  box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  object-fit: cover;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 320px;
+  height: 200px;
+  overflow: hidden;
+ 
+
+}

@@ -11,9 +11,11 @@ export const Main = () => {
                     return (
                         <div className="route-box">
                             <Link to={`/${single.route}`} className='c-white'>{single.name}</Link>
-                            
+                            <div className="image-container">
+                                <img src={single.image} id='map-image'/>
+                            </div>
                             <div className="content">
-                                <span className='c-white'>მარაგშია: {states.length} სიტყვა</span>
+                                <span className='c-white'>მარაგშია: {single.wordCount} სიტყვა</span>
                             </div>
                         </div>
                     )
