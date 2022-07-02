@@ -1,6 +1,5 @@
 import "./App.css";
 import { Item } from "./components/Item";
-import { FaShoppingCart } from "react-icons/fa";
 import { Basket } from "./components/Basket";
 import { createContext } from "react";
 
