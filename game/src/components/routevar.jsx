@@ -1,9 +1,10 @@
 import { Imereti } from "./elements/Imereti";
 import { Kakheti } from "./elements/Kakheti";
 import {Fshavi} from './elements/Fshavi'
-import {Qartli} from './elements/Qartli'
+import {Racha} from './elements/Racha'
 import {Samegrelo} from './elements/Samegrelo'
 import { Main } from "../Main";
+import { Guria } from "./elements/Guria";
  
 export const states = [
     {
@@ -29,9 +30,9 @@ export const states = [
     },
     {
         id:Math.floor(Math.random() * 9999999),
-        name:"ქართლი",
-        route:"qartli",
-        element:<Qartli/>,
+        name:"რაჭა",
+        route:"Racha",
+        element:<Racha/>,
         wordCount:Math.floor(Math.random() * 100)
     },
     {
@@ -43,9 +44,9 @@ export const states = [
     },
     {
         id:Math.floor(Math.random() * 9999999),
-        name:"ფშავი",
-        route:"fshavi",
-        element:<Fshavi/>,
+        name:"გურია",
+        route:"guria",
+        element:<Guria/>,
         wordCount:Math.floor(Math.random() * 100)
     },
     

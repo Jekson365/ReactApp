@@ -6,6 +6,7 @@
   text-decoration: none;
   list-style: none;
   transition: 0.3s;
+  word-wrap: break-word;
 }
  a {
   text-decoration: none;
@@ -18,11 +19,16 @@
   grid-gap: 10px;
 
 }
+hr {
+  width: 20%;
+  background-color: white;
+}
 .route-box {
   border-radius: 10px;
   padding: 15px;
   min-height: 240px;
-  background-color: #DAEAF1;
+  background-color: #5534A5;
+
 }
 .route-box {
   font-family: "BPG Boxo", sans-serif;
@@ -37,7 +43,7 @@ nav {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  background-color: #92c0d3;
+  background-color: #A85CF9;
 }
 nav a {
   letter-spacing: 1px;
@@ -50,4 +56,41 @@ nav a {
 nav a:hover {
   text-decoration: none;
   color: aquamarine;
+}
+.word-main-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(5,240px);
+  grid-gap: 20px;
+  justify-content: center;
+}
+.c-white {
+  color: white;
+}
+#main-w {
+  color: #EDE6DB;
+}
+.word-container {
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.254);
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 400px;
+  min-height: 200px;
+  background-color: #5534A5;
+  transition: 0.3s;
+  cursor: pointer;
+  font-size: 1vw;
+}
+
+.desc {
+  color: #EDE6DB;
+}
+.soon {
+  font-family: "BPG Boxo", sans-serif;
+  margin-top: 100px;
+  font-size: 35px;
+  text-align: center;
+  color: #A85CF9;
+  opacity: 0.5;
 }

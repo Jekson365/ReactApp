@@ -1,22 +1,24 @@
 import React from 'react'
+import { guria } from '../wordbase/Guriabase'
 import { Navigation } from '../Navigation'
-import { imereti } from '../wordbase/Imeretibase'
-export const Imereti = () => {
+
+export const Guria = () => {
   return (
-    <div>
-      <Navigation/>
+    <>
+    <Navigation />
       <div className="word-main-container">
-        {imereti.map((single) => {
+        {guria.map((single) => {
           return (
             <div className='word-container'>
               <div className="content">
                 <h5 id='main-w'>{single.mainword}</h5>
+                <hr />
                 <p className='desc'>{single.wordDescription}</p>
               </div>
             </div>
           )
         })}
       </div>
-    </div>
+    </>
   )
 }

@@ -10,10 +10,10 @@ export const Main = () => {
                 {states.map((single) => {
                     return (
                         <div className="route-box">
-                            <Link to={`/${single.route}`}>{single.name}</Link>
+                            <Link to={`/${single.route}`} className='c-white'>{single.name}</Link>
                             
                             <div className="content">
-                                <span>მარაგშია: {single.wordCount} სიტყვა</span>
+                                <span className='c-white'>მარაგშია: {states.length} სიტყვა</span>
                             </div>
                         </div>
                     )

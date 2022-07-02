@@ -1,12 +1,13 @@
 import React from 'react'
 import { Navigation } from '../Navigation'
-import { imereti } from '../wordbase/Imeretibase'
-export const Imereti = () => {
+import { racha } from '../wordbase/RachaBase'
+
+export const Racha = () => {
   return (
     <div>
-      <Navigation/>
+      <Navigation />
       <div className="word-main-container">
-        {imereti.map((single) => {
+        {racha.map((single) => {
           return (
             <div className='word-container'>
               <div className="content">
