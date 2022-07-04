@@ -7,7 +7,7 @@ import { useState } from 'react'
 import { createContext } from 'react'
 import { useContext } from 'react'
 import { dataContext } from '../../App'
-
+import { SectionName } from '../search/SectionName'
 
 
 export const Racha = () => {
@@ -34,6 +34,7 @@ export const Racha = () => {
   return (
     <div>
       <Navigation />
+      <SectionName sectionName={"რაჭა"}/>
       <SearchInput onchangeEvent={filterItems} premiumFilter={handlePremiumFilter}/>
       <EachContainer datas={data} />
     </div>

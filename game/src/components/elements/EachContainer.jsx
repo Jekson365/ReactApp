@@ -14,6 +14,7 @@ export const EachContainer = (props) => {
                 <h5 id='main-w' className='bl'>{single.mainword}</h5>
                 <p className='desc bl'>{single.wordDescription}</p>
               </div>
+              <div className="circle-overlay"></div>
               <div className="example">
                 <p>" {single.example} "</p>
               </div>

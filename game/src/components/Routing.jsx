@@ -7,6 +7,7 @@ import {
 import { Main } from "../Main";
 import { states } from "./routevar";
 import { Navigation } from "./Navigation";
+import { sentence } from "./routevar";
 export const Routing = () => {
     return (
         <>
@@ -17,6 +18,14 @@ export const Routing = () => {
                         return (
                             <>  <Route path="/" element={<Main/>}/>
                                 <Route path={`/${route}`} element={element}/>
+                            </>
+                        )
+                    })}
+                    {sentence.map((single)=>{
+                        const {route,element} = single
+                        return (
+                            <>
+                                <Route path={`/${single.route}`} element={element}/>
                             </>
                         )
                     })}

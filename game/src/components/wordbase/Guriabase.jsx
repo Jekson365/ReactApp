@@ -28,7 +28,8 @@ export const guria = [
     {
         id:Math.floor(Math.random()* 9999999999),
         mainword:"ვეფერი",
-        wordDescription:"ვერაფერი"   
+        wordDescription:"ვერაფერი",
+        example:"რა ქნა ჯოტიამ, ჩააბარა? -  ვეფერი ვერ ქნა"
     },
     {
         id:Math.floor(Math.random()* 9999999999),

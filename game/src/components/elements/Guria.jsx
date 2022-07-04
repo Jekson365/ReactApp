@@ -6,7 +6,7 @@ import { SearchInput } from '../search/SearchInput'
 import { dataContext } from '../../App'
 import { useContext } from 'react'
 import { useState } from 'react'
-
+import { SectionName } from '../search/SectionName'
 
 export const Guria = () => {
   // call method and list 
@@ -32,6 +32,7 @@ export const Guria = () => {
   return (
     <>
     <Navigation />
+    <SectionName sectionName={"გურია"}/>
     <SearchInput onchangeEvent={filterItems} premiumFilter={handlePremiumFilter}/>
     <EachContainer datas={dataGuria}/>
     </>

@@ -9,7 +9,7 @@ export const imereti = [
         id:Math.floor(Math.floor()*99999999),
         mainword:"დაქექილი ",
         wordDescription:"მოხერხებული ადამიანი",
-        example:"აუ ეს რა დაქექილიაა"
+        example:""
     },
     {
         id:Math.floor(Math.floor()*99999999),
@@ -33,7 +33,32 @@ export const imereti = [
         id:Math.floor(Math.floor()*99999999),
         mainword:"ქენქერა ",
         wordDescription:"დაბნეული",
-        example:"ქენქერა გოგო/ბიჭი"
+        example:""
+    },
+    {
+        id:Math.floor(Math.floor() * 9999999),
+        mainword:"ლუსკუმი",
+        wordDescription:"ძნელად მისაგნები საგანგებო ადგილი",
+        example:""
+    },
+    {
+        id:Math.floor(Math.floor() * 9999999),
+        mainword:"მოფარცხავს",
+        wordDescription:"გადატ.მიედ-მოედება (საუბრის დროს)",
+        example:"ხელამპარია რო ტყუილებს მოფარცხავდა"
+    },
+
+    {
+        id:Math.floor(Math.floor() * 9999999),
+        mainword:"ღიჯი-ღიჯი",
+        wordDescription:"ერთი და იმავეს ჩიჩინი",
+        example:""
+    },
+    {
+        id:Math.floor(Math.floor() * 9999999),
+        mainword:"აქნამდი,აქმამდი",
+        wordDescription:"აქამდე,ამდენ ხანს",
+        example:"სად იყავი აქნამდი?"
     },
 
 ]

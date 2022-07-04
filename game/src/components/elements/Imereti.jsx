@@ -5,10 +5,13 @@ import { EachContainer } from './EachContainer'
 import { SearchInput } from '../search/SearchInput'
 import { useContext } from 'react'
 import { dataContext } from '../../App'
-
+import { SectionName } from '../search/SectionName'
+import { useState } from 'react'
 
 export const Imereti = () => {
   const { immereti, setImereti } = useContext(dataContext)
+  const[check,handleCheck] = useState(false)
+
 
   // filter search - filter items 
   const filterItems = (event) => {
@@ -16,10 +19,21 @@ export const Imereti = () => {
     const newList = imereti.filter((item) => item.mainword.includes(inp))
     setImereti(newList)
   }
+  const handlePremiumFilter = () => {
+    if (check) {
+      handleCheck(false)
+      setImereti(imereti)
+    }
+    else {
+      handleCheck(true)
+      setImereti(imereti.filter((item)=>item.example))
+    }
+  }
   return (
     <div>
       <Navigation/>
-      <SearchInput onchangeEvent={filterItems}/>
+      <SectionName sectionName={"იმერეთი"}/>
+      <SearchInput onchangeEvent={filterItems} premiumFilter={handlePremiumFilter}/>
       <EachContainer datas={immereti} />
     </div>
   )
