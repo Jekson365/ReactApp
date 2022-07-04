@@ -9,7 +9,7 @@ export const racha = [
         id:Math.floor(Math.random()* 9999999999),
         mainword:"კონწიალი",
         wordDescription:"ჩამოკიდებული საგნის მოძრაობა, ქანაობა.",
-        example:"ჩამოხსენი ის რო კონწიალობს იქანა"
+        
     },
     
     {

@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import { Main } from "../Main";
 import { states } from "./routevar";
-
+import { Navigation } from "./Navigation";
 export const Routing = () => {
     return (
         <>

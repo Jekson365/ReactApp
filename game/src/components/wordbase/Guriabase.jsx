@@ -2,7 +2,8 @@ export const guria = [
     {
         id:Math.floor(Math.random()* 9999999999),
         mainword:"აკაპიწება",
-        wordDescription:"სახელოების, შარვლის ტოტების აკეცვა."   
+        wordDescription:"სახელოების, შარვლის ტოტების აკეცვა.",
+        example:"ეიკაპიწე მა კლავები და მომეხმარე"
     },
     {
         id:Math.floor(Math.random()* 9999999999),
@@ -32,16 +33,19 @@ export const guria = [
     {
         id:Math.floor(Math.random()* 9999999999),
         mainword:"ვირთაგანი",
-        wordDescription:"უზრდელი,ცუღლუტი ბავშვი"   
+        wordDescription:"უზრდელი,ცუღლუტი ბავშვი",
+        example:"მეც მეტი არაფერი მინდა, ნეტავი ერთი იმ ვირთაგანი ვიყო"
     },
     {
         id:Math.floor(Math.random()* 9999999999),
         mainword:"ვიჯღავლე",
-        wordDescription:"ძალიან ხმამაღლა ვიყვირე"
+        wordDescription:"ძალიან ხმამაღლა ვიყვირე",
+        example:"მახსოვს, იმდენი ვიჯღავლე, გავსკდი"
     },
     {
         id:Math.floor(Math.random()* 9999999999),
         mainword:"ვიყურყუტე",
-        wordDescription:"ვიცადე"
+        wordDescription:"ვიცადე",
+        example:"რამდენი ვიყურყუტე იქ, არ მოვიდა"
     }
 ]
